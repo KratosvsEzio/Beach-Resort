@@ -3,4 +3,27 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  position: relative;
+  display: block;
+  min-height: 100%;
+  min-height: 100vh;
+  background-color: #ebebeb!important;
+}
+
+.section-heading{
+  font-family: 'amithenregular';
+  font-size: 3.5rem;
+  line-height: 1;
+  color: #24bed1;
+  letter-spacing: 1px;
+  text-align: center;
+  position: relative;
+}
+
+button{
+  min-width: 220px;
 }

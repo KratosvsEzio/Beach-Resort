@@ -1,0 +1,152 @@
+.section-kitchen{
+  padding: 120px 0px;
+  margin-bottom: 120px;
+  background: url(../../../assets/images/Kitchen/food-beverage-home-1.jpg);
+  max-width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-heading:after{
+  content: '';
+  position: absolute;
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  background-image: linear-gradient(to right, transparent , white , transparent );
+}
+
+.white{
+  color: #fff!important;
+  font-size: 6rem!important;
+}
+
+.section-headings{
+  background: url(../../../assets/images/Kitchen/content-background.png);
+  max-width: 100%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 60px 0;
+}
+
+.heading-2{
+  font-family: 'AvenirNextCondensed-DemiBold', sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.section-kitchen-content{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #fff;
+  max-width: 71%;
+  margin: 40px auto 0 auto;
+  text-align: center;
+}
+
+.kitchen-link{
+  margin-top: 40px;
+  border-radius: 40px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  outline: none;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.kitchen-link:hover{
+  border: 2px solid rgb(15, 150, 212);
+  background-color: rgb(15, 150, 212);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2)
+}
+
+.special-image-top{
+  position: relative;
+  margin-top: -60%;
+}
+
+.special-image-top img{
+  position: absolute;
+  top: 0;
+  left: 30%;
+  max-width: 350px;
+}
+
+.special-image-bottom{
+  position: relative;
+}
+
+.special-image-bottom img{
+  position: absolute;
+  bottom: -100px;
+  left: -100px;
+  height: 200px;
+}
+
+
+
+@media screen and (min-width: 1200px){
+  .section-headings{
+    padding: 80px 100px;
+  }
+}
+@media screen and (min-width: 992px){
+  .section-headings{
+    padding: 80px 100px;
+  }
+}
+@media screen and (min-width: 768px){
+  .section-headings{
+    padding: 80px 100px;
+  }
+}
+
+
+@media screen and (max-width: 1200px){
+  .special-image-top img{
+    top: -55px;
+    left: -20%;
+    max-width: 350px;
+  }
+}
+@media screen and (max-width: 992px){
+  .special-image-top img{
+    top: -70px;
+    left: 75%;
+    max-width: 280px;
+  }
+}
+@media screen and (max-width: 768px){
+  .special-image-top img{
+    top: 0;
+    left: auto;
+    right: 0;
+    max-width: 280px;
+  }
+  .special-image-top, .special-image-bottom{
+    display: none;
+  }
+  .container{
+    margin-left: 10%!important;
+    margin-right: 10%!important;
+  }
+}
+@media screen and (max-width: 576px){
+}

@@ -1,0 +1,51 @@
+.banner{
+  padding-bottom: 120px;
+}
+
+.slide-front{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  flex-direction: column;
+}
+
+.slide-content{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.slide-content:after{
+  content: " ";
+  position: absolute;
+  display: block;
+  height: 101%;
+  top: -10px;
+  left: -25px;
+  z-index: -1;
+  width: 120%;
+  background-color: rgba(10, 167, 200, 1);
+  transform-origin: bottom right;
+  transform: skew(-10deg, -3deg);
+  border-radius: 20px;
+  padding: 2px;
+}
+
+.carousel-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
