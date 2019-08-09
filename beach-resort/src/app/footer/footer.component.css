@@ -91,6 +91,19 @@
   padding-bottom: 10px;
 }
 
+.site-logo{
+  position: relative;
+  top: -50px;
+  left: 10px;
+  height: 100px;
+  width: 100px;
+}
+
+.footer-section-1-paragraph{
+  position: relative;
+  top: -40px;
+}
+
 .footer-section-1-paragraph, .footer-contact-us{
   font-size: 0.8em;
 }
@@ -115,3 +128,4 @@
   border-top: 1.2px solid rgba(0 ,0, 0, 0.1);
   padding: 20px;
 }
+
