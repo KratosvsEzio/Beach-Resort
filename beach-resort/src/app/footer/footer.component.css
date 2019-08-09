@@ -1,0 +1,127 @@
+.footer-section{
+  background-image: linear-gradient(to bottom, #24a4d5, #0090e3, #2d3b5b);
+}
+
+.footer-header{
+  padding: 20px 10px;
+}
+
+.social-media-links{
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+.social-media-links li{
+  position: relative;
+  list-style: none;
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+.social-media-links li span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  display: flex !important;
+  justify-content: center ;
+  align-items: center;
+  color: #fff;
+  font-size: 15px !important;
+  border-radius: 30%;
+}
+
+.social-media-links li:hover span:nth-child(5){
+  transform: translate(0px, -40px);
+  opacity: 1;
+}
+
+.social-media-links li:hover span:nth-child(4){
+  transform: translate(0px, -30px);
+  opacity: 0.8;
+}
+
+.social-media-links li:hover span:nth-child(3){
+  transform: translate(0px, -20px);
+  opacity: 0.6;
+}
+
+.social-media-links li:hover span:nth-child(2){
+  transform: translate(0px, -10px);
+  opacity: 0.4;
+}
+
+.social-media-links li:hover span:nth-child(1){
+  transform: translate(0, 0);
+  opacity: 0.2;
+}
+
+.social-media-links li:nth-child(1) span{
+  background-color: #3b5999;
+}
+
+
+.social-media-links li:nth-child(2) span{
+  background-color: #55acee;
+}
+
+
+.social-media-links li:nth-child(3) span{
+  background-color: #dd4b39;
+}
+
+
+.social-media-links li:nth-child(4) span{
+  background-color: #0077b5;
+}
+
+
+.social-media-links li:nth-child(5) span{
+  background-color: #e4405f;
+}
+
+/* Footer Content Section */
+
+.footer-content{
+  padding: 40px 0;
+  color: #fff;
+}
+
+.footer-section-1-heading, .footer-section-2-heading, .footer-section-3-heading{
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.footer-section-1-paragraph, .footer-contact-us{
+  font-size: 0.9em;
+}
+
+.footer-contact-us li{
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer-contact-us li span:first-child{
+  margin-right: 10px;
+  font-size: 1.1em;
+}
+
+.map{
+  width: inherit;
+  height: inherit;
+}
+
+.footer-footer{
+  color: #fff;
+  border-top: 1.2px solid rgba(0 ,0, 0, 0.1);
+  padding: 20px;
+}
